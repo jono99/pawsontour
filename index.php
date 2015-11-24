@@ -37,7 +37,28 @@
 
 			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/park.png" class="park">
 
-			<a href="#dog-modal-1" id="pug" class="dog" data-toggle="modal" data-target="dog-modal-1">
+			<!-- DOGS -->
+			<a href="#dog-modal-1" id="boston" class="dog" data-toggle="modal" data-target="dog-modal-1">
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/img/boston-terrier.png">
+			</a>
+
+			<a href="#dog-modal-2" id="bulldog" class="dog" data-toggle="modal" data-target="dog-modal-2">
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/img/bulldog.png">
+			</a>
+
+			<a href="#dog-modal-3" id="chiuhaha" class="dog" data-toggle="modal" data-target="dog-modal-3">
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/img/chiuhaha.png">
+			</a>
+
+			<a href="#dog-modal-4" id="frenchie" class="dog" data-toggle="modal" data-target="dog-modal-4">
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/img/frenchie.png">
+			</a>
+
+			<a href="#dog-modal-5" id="poodle" class="dog" data-toggle="modal" data-target="dog-modal-5">
+				<img src="<?php echo get_bloginfo('template_directory'); ?>/img/poodle.png">
+			</a>
+
+			<a href="#dog-modal-6" id="pug" class="dog" data-toggle="modal" data-target="dog-modal-6">
 				<img src="<?php echo get_bloginfo('template_directory'); ?>/img/pug.png">
 			</a>
 		</div>
