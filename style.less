@@ -1,0 +1,54 @@
+
+* { outline: none !important; }
+
+/* Imports
+--------------------------------------------- */
+
+	@import "css/less/bootstrap/bootstrap.less";
+	
+	@import "css/less/type";
+	@import "css/less/forms";
+	@import "css/less/mixins";
+
+	@import "css/less/header";
+	@import "css/less/dogs";
+
+/* Globals
+  --------------------------------------------- */
+
+#park {
+	#logo {
+		position: relative;
+		z-index: 10;
+	}
+}
+
+.container {
+	max-width: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+	> .row {
+		max-width: 1400px;
+		margin: auto;
+		
+		img {
+			.img-responsive();
+		}
+	}
+}
+
+body {
+	/* .gradient(#70cef5, #61c9f4); */
+	background: -webkit-gradient(linear, left top, right top, from(#70cef5), to(#61c9f4))
+}
+
+/* Image Alignment
+--------------------------------------------- */
+
+	.alignright {float: right;}
+	.alignleft {float: left}
+	img.alignleft {margin: 0 25px 25px 0;}
+	img.alignright {margin: 0 0 25px 25px;}
+	.aligncenter {margin: 25px auto;display:block;}
