@@ -33,7 +33,7 @@
 
 	<div id="park" class="container fade">
 		<div class="row content">
-			<!-- <img src="<?php echo get_bloginfo('template_directory'); ?>/img/logo-yellow.png" id="logo"> -->
+			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/logo.png" id="logo">
 
 			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/park.png" class="park">
 
