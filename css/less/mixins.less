@@ -86,11 +86,11 @@
 
 .horizontal-gradient (@startColor: #fff, @endColor: #d9d9d9) {
  	background-color: @startColor;
-	background-image: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
-	background-image: -webkit-linear-gradient(left, @startColor, @endColor);
-	background-image: -moz-linear-gradient(left, @startColor, @endColor);
-	background-image: -ms-linear-gradient(left, @startColor, @endColor);
-	background-image: -o-linear-gradient(left, @startColor, @endColor);
+	background: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
+	background: -webkit-linear-gradient(left, @startColor, @endColor);
+	background: -moz-linear-gradient(left, @startColor, @endColor);
+	background: -ms-linear-gradient(left, @startColor, @endColor);
+	background: -o-linear-gradient(left, @startColor, @endColor);
 }
 
 .animation (@string) {
