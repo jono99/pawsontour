@@ -19,6 +19,7 @@ var $ = jQuery.noConflict(); $(document).ready(function(){
 $(window).load(function() {
 	$('#logo, #park').addClass('in');
 
+	// show sequentially
 	var dogs = $('.dog');
 	var i = 0;
 

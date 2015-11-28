@@ -8,10 +8,3 @@ Author: Jonathan Boshoff
 Author URI: 
 */
 
-body {
-	background: -webkit-gradient(linear, left top, right top, from(#70cef5), to(#61c9f4));
-	background: -webkit-linear-gradient(left, #70cef5, #61c9f4);
-	background: -moz-linear-gradient(left, #70cef5, #61c9f4);
-	background: -ms-linear-gradient(left, #70cef5, #61c9f4);
-	background: -o-linear-gradient(left, #70cef5, #61c9f4);
-}
